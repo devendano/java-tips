@@ -12,3 +12,7 @@ It's like a simple version of the java class. It is used to define attributes wi
 ```
 AtomicLong counter = new AtomicLong();
 ```
+A numeric type object that provides functions similar to an identifier.
+```
+counter.incrementAndGet();  // current number + 1
+```
